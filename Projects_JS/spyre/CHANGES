@@ -1,0 +1,16 @@
+Changes in version 0.7
+
+
+* multiple viewports now supported (one per camera) 
+* main loop control is now via Exceptions
+* engine timing control is now in a TimeKeeper class instance
+* engines 'idle' method can be method or generator-method
+* support modules now named consistently *_objects
+* stereoscopic module rewritten to use 'wrapper' design pattern
+* new stereoscopic demos added, for both edimensional LCD 
+  glasses and red/blue glasses
+* tests (unittest based) added
+* documentation upgraded - still epydoc, but more overview
+* various bugfixes, mostly from testing; pychecker checked
+* library re-organized, with demos and tests in subdirs; demos
+  will run without installing module
