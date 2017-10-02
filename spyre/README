@@ -1,0 +1,53 @@
+Summary
+
+    SPyRE is an OpenGL retained-mode rendering engine.  It depends only 
+    on Pygame, PyOpenGL, and Python, so should work well on a wide 
+    range of platforms.
+   
+	A variety of demos are included, including various particle models.
+	
+	A test suite is also provided, though its 400+ tests still fall 
+	well short of comprehensive.
+	
+Getting the software
+
+    The software is available as a zipfile here:
+	http://sourceforge.net/project/showfiles.php?group_id=110483
+
+    The official URL for this Web site is
+    http://pduel.sourceforge.net/projects/
+
+
+Requirements
+
+    - A functioning "OpenGL", http://www.opengl.org/ system.  Those
+      who do not have any special OpenGL-supporting hardware can
+      install "MesaGL", http://www.mesa3d.org/.
+
+    - "PyOpenGL 2.x", http://pyopengl.sourceforge.net/ or greater.
+
+	- "Pygame 1.6" or greater, http://www.pygame.org/download.shtml
+
+
+Overview
+
+	See the included README_ZOE file for Erik Max Francis's description of the 
+	functionality.  SPyRE has the same functionality, with exceptions 
+	mentioned above.  It has added functionality addressing such features as 
+	lighting, perspective, and depth cueing.
+	
+	The license is LPGL; see the COPYING document enclosed
+
+Author
+
+    This module is derived from ZOE by Erik Max Francis.  If you use this 
+    software, have suggestions for future releases, or bug reports, I'd 
+    love to hear about it, 
+    
+    dkeeney@travelbyroad.net.
+
+
+Version
+
+    Version 0.7 $Date: 2006 Jan 7$ $Author: David Keeney $
+
